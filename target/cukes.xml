@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="40.787">
+<testcase classname="user choose language" name="user choose language" time="8.795">
+<system-out><![CDATA[Given user click on language list...........................................passed
+Then user choose the language...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="user search about lessons" name="user search about lesson" time="7.469">
+<system-out><![CDATA[Given user click on language list...........................................passed
+When user choose the language...............................................passed
+And user click on search icon...............................................passed
+And user write the lesson name in search text box...........................passed
+Then user click on search submit............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="user choose second lesson" name="user choose second lesson" time="12.316">
+<system-out><![CDATA[Given user click on language list...........................................passed
+When user choose the language...............................................passed
+And user click on search icon...............................................passed
+And user write the lesson name in search text box...........................passed
+And user click on search submit.............................................passed
+Then user click on 2nd lesson...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="user choose second lesson" name="user choose second lesson" time="11.738">
+<system-out><![CDATA[Given user click on language list...........................................passed
+When user choose the language...............................................passed
+And user click on search icon...............................................passed
+And user write the lesson name in search text box...........................passed
+And user click on search submit.............................................passed
+And user click on 2nd lesson................................................passed
+Then user click on worksheet section........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
